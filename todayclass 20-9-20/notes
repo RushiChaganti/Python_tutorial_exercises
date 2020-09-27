@@ -1,0 +1,57 @@
+Insertion functions
+    insert # will insert at any position.
+        insert(1, "trial")
+    append # will append to the last. 
+        append("last")
+
+removal functinons
+    pop
+        pop(0)
+        pop(1)
+
+    del
+        But this one is on the list. 
+        del people_dinner[0]
+
+    remove
+        removing by value. 
+        example: people.remove("value")
+
+Sorting functions
+    On the array 
+        sort() # Permanantly sort the array. 
+            can also be used to sort in reverse order by specifying reverse=True
+            example: cars.sort(reverse=True)
+        sorted() # Will only return the sorted array but will not not alter the array itself. 
+            can also be used to sort list in reverse list. 
+            example : sorted(cars, reverse=True)
+        reverse() # will reverse the order of the list. 
+
+
+length of the array. 
+len(cars)
+
+
+Accessing the elements of the array. 
+by index 
+my_array[0]
+my_array[1]
+
+to modify an element of an array it  will use. 
+my_array[0] = "new val"
+
+String Functions. 
+    upper() = makes string upper case. 
+    lower() = makes string lower case. 
+
+String formatter: 
+    Using string formatter you can include varibles in double quotes. 
+    any_string = "hello world
+    f"My String is {any_string}"
+    Another example you can invoke a function 
+    f"String in upper case is {any_string.upper()} uppercased"
+
+Looping constructs. 
+    for var in list: 
+        print(var)    
+
