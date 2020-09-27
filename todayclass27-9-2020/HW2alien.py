@@ -1,4 +1,6 @@
-alien_color = 'green'
+def alien_points(colour):
+    if colour == 'green':
+        return  5
 
-if alien_color == 'green':
-    print("You just earned 5 points!")
+points = alien_points("green")
+print(f"You just earned {points} points for shooting the alien !")
